@@ -1,17 +1,16 @@
-#Leer dos numeros y mostrar la suma
-#Operadores aritmeticos 
+# Leer dos números y realizar operaciones aritméticas
 
-numero1 = int(input ("Ingresa otro #"))
-numero2 = int(input ("Ingresa otro #"))
+numero1 = int(input("Ingresa el primer número: "))
+numero2 = int(input("Ingresa el segundo número: "))
 
-suma= numero1 + numero2
+suma = numero1 + numero2
 resta = numero1 - numero2
-multiplacion= numero1 * numero2
-division - numero1 / numero2
-divisible = numero1 % numero2
+multiplicacion = numero1 * numero2
+division = numero1 / numero2
+residuo = numero1 % numero2
 
-print(f"suma: " {suma}")
-print(f"suma: " {resta}")
-print(f"suma: " {multiplacion}")
-print(f"suma: " {division}")
-print(f"suma: " {divisible}")
+print(f"Suma: {suma}")
+print(f"Resta: {resta}")
+print(f"Multiplicación: {multiplicacion}")
+print(f"División: {division}")
+print(f"Módulo/Residuo: {residuo}")
